@@ -1,6 +1,5 @@
 import React from "react";
 import Tag from "../Components/Tag";
-import Header from "../Components/Header";
 import MetroImg1 from "../Components/MetroImg1";
 import Footer from "../Components/Footer";
 import MainNavBar from "../Components/MainNavBar";
@@ -17,14 +16,13 @@ const Main = () => {
     <div className="main">
         <Tag />
       <div className="top">
-        <Header />
         <MainNavBar />
       </div>
       <MetroImg1 />
       <Parallax />
       <Welcome />
-      <OurStory />
       <Parallax2 />
+      <OurStory />
       <Parallax3 />
       <CurrentNews />
       <div className="bottom">

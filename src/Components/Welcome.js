@@ -10,7 +10,7 @@ function Welcome(){
           <div>
             <img src={image} style={{ width: "100px", height: "100px" }} />
           </div>
-          <div>
+          <div id="welcomemsg">
             <p>Hop on any one of Cap Metro services and join us for a ride!</p>
             <br></br>
             <p>
@@ -23,6 +23,9 @@ function Welcome(){
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </p>
+          </div>
+          <div>
+            <button>Join a Ride!</button>
           </div>
         </div>
         <div className="left" id="welcomeimg">

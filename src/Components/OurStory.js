@@ -40,7 +40,7 @@ function OurStory() {
           <img src={image} style={{ width: "100px", height: "100px" }} />
         </div>
       </div>
-      <div>
+      <div id="ourstorymsg">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -1,24 +1,28 @@
-import React from 'react'
-
+import React from "react";
+import image from "../images/Untitled_Artwork.jpg";
 const MainNavBar = () => {
-    return (
-      <div>
-        <div className="navbar">
-          <button style={{color: "black" }}> About </button>
-          <br></br>
-          <button style={{color: "black" }}> Join </button>
-          <br></br>
-          <button style={{color: "black" }}> News </button>
-          <br></br>
-          <button style={{color: "black" }}> Maps </button>
-          <br></br>
-          <button style={{color: "black" }}> Merch </button>
-          <br></br>
-          <button style={{color: "black" }}> Press </button>
-          <br></br>
-        </div>
+  return (
+    <div className="navbar">
+      <div className="header">
+        <h2 className="hd">Cap Metro Fan Club</h2>
       </div>
-    );
-}
+      <div className="pages">
+        <button> About </button>
+        <br></br>
+        <button> Join </button>
+        <br></br>
+        <button> News </button>
+        <br></br>
+        <button> Maps </button>
+        <br></br>
+        <button> Merch </button>
+        <br></br>
+        <button> Press </button>
+        <br></br>
+        <button>Sign In</button>
+      </div>
+    </div>
+  );
+};
 
-export default MainNavBar
+export default MainNavBar;
