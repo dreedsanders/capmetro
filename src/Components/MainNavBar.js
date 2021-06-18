@@ -15,11 +15,13 @@ const MainNavBar = () => {
         <br></br>
         <button> Maps </button>
         <br></br>
+        <button> Our Friends </button>
+        <br></br>
         <button> Merch </button>
         <br></br>
         <button> Press </button>
         <br></br>
-        <button>Sign In</button>
+          <button id="btnstyle">Sign In</button>
       </div>
     </div>
   );

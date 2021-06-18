@@ -12,10 +12,6 @@ code {
     monospace;
 }
 
-.header {
-  justify-self: flex-start;
-  margin-top: 8px;
-}
 .App {
   width: 100%;
   height: 100%;
@@ -31,11 +27,11 @@ code {
 .tag {
   margin-top: 90px;
   text-align: center;
-  font-size: large;
+  font-size: 20px;
   border-bottom: 3px solid rgb(255, 175, 55);
 }
 button:hover {
-  color: rgb(235, 10, 10);
+  color: black;
 }
 
 li {
@@ -51,11 +47,15 @@ li {
 .pages {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  align-self: flex-end;
+}
+
+.pages > button {
+  padding: 25px;
 }
 
 .hd {
-  color: #cf1b1b;
+  color: rgb(255, 246, 116);;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -63,8 +63,8 @@ li {
 }
 
 .img {
-  padding-top: 20px;
   margin: 10px;
+  height: 75vh;
 }
 
 .footer {
@@ -84,6 +84,7 @@ li {
 
 button,
 a {
+  color: rgb(255, 246, 116);;
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
@@ -91,7 +92,7 @@ a {
   overflow: hidden;
   outline: none;
   font-size: 26px;
-  font-weight: 900;
+  font-weight: 300;
 }
 
 a {
@@ -106,11 +107,12 @@ a {
 .welcome {
   display: flex;
   justify-content: space-evenly;
-  height: 70vh;
+  height: 60vh;
 }
 
 .left {
   display: flex;
+  flex-grow: inherit;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -137,17 +139,41 @@ a {
 
 .ourstory {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-  background-color: rgba(255, 175, 55, 0.521);
+  flex-direction: row;
+  height: 60vh;
 }
 
-.ourstory > div {
-  width: 50%;
-  justify-self: center;
+#ourstorycenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  order: 2;
+  padding: 10px;
+  height: 100%;
+}
+
+#ourstorymsg {
+  width: 70%;
+}
+#ourstoryleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  order: 1;
+  padding: 10px;
+  background-color: rgb(236, 236, 236, 0.5);
+}
+#ourstoryright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  order: 3;
+  padding: 10px;
+  background-color: rgb(236, 236, 236, 0.5);
 }
 
 .atxlogos {
@@ -159,19 +185,19 @@ a {
 }
 
 .parallax1 {
-  height: 600px;
+  height: 500px;
   background-image: url("./images/austin-texas-usa-sunrise-skyline-600w-681676399.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 .parallax2 {
-  height: 600px;
+  height: 500px;
   background-image: url("./images/10-Must-Stops-in-Austin-with-Kids-Where-to-Stay-Eat-and-What-to-Do-7679821bf0f840548b848888b6e8ccd0.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 .parallax3 {
-  height: 600px;
+  height: 500px;
   background-image: url("./images/ZUIVgz.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -182,7 +208,6 @@ a {
   align-content: center;
   justify-content: center;
   width: 100%;
-  /* margin-top: 200px; */
   margin-bottom: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -197,12 +222,29 @@ a {
 }
 .current {
   display: flex;
+  justify-content: space-evenly;
+  height: 40vh;
+  background-color: rgb(236, 236, 236, 0.5);
+}
+.latelyleft {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.lately {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+#wlcmimage{
+  max-width: auto;
+  max-height: auto;
+}
+#btnstyle {
+  color: black;
+  background: rgb(255, 246, 116);
+  border: 1px solid black;
+  box-shadow:4px 4px 0 2px rgb(10, 190, 235), 4px 4px 0 3px black;
+}
+#btnstyle:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(10, 190, 235);
+  box-shadow: 4px 4px 0 2px rgb(255, 246, 116), 4px 4px 0 3px black;
 }

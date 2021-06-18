@@ -25,7 +25,7 @@ function Welcome(){
             </p>
           </div>
           <div>
-            <button>Join a Ride!</button>
+            <button id="btnstyle">Join a Ride!</button>
           </div>
         </div>
         <div className="left" id="welcomeimg">
