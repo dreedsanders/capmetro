@@ -17,7 +17,7 @@ const MainNavBar = () => {
         <br></br>
         <button> Our Friends </button>
         <br></br>
-        <button> Merch </button>
+        <button> The Reason Why </button>
         <br></br>
         <button> Press </button>
         <br></br>

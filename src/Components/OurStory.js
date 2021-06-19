@@ -44,7 +44,7 @@ function OurStory() {
       <div id="ourstoryright">
         <img src={commute}></img>
         <br></br>
-        <button id="btnstyle">Commuting. Why it matters. How it helps</button>
+        <button id="btnstyle">Commuting. Why it matters. How it helps.</button>
       </div>
     </div>
   );

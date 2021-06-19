@@ -10,25 +10,29 @@ import Parallax from "../Components/Parallax";
 import Parallax2 from "../Components/Parallax2";
 import Footer2 from "../Components/Footer2";
 import Parallax3 from "../Components/Parallax3";
-
+import Empower from "../Components/Empower";
+import YoutubeEmbed from "../Components/YoutubeEmbed"
+import Empower2 from "../Components/Empower2";
 const Main = () => {
   return (
     <div className="main">
-        <Tag />
+      <Tag />
       <div className="top">
         <MainNavBar />
       </div>
       <MetroImg1 />
-      <Parallax />
       <Welcome />
       <Parallax2 />
       <OurStory />
-      <Parallax3 />
+      <Parallax />
+      <Empower />
+      {/* <Empower2 /> */}
+      {/* <YoutubeEmbed embedId="KTT7i3SKpMQ" /> */}
       <CurrentNews />
       <div className="bottom">
         <Footer />
       </div>
-        <Footer2 />
+      <Footer2 />
     </div>
   );
 };

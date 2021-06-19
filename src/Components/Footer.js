@@ -42,10 +42,10 @@ const Footer = () => {
         <br></br>
       </div>
       <div>
-        <button>Contact</button>
+        <button id="btnstyle">Contact</button>
       </div>
       <div>
-        <button>Join Newsletter</button>
+        <button id="btnstyle">Join Newsletter</button>
       </div>
     </div>
   );
